@@ -9,7 +9,7 @@ from app import db
 app = FastAPI()
 
 db.connect_db()
-# db.create_table()
+db.create_table()
 
 d_commands = []
 drone_position = {"lat": 23.7795802, "lng": 90.371389}
